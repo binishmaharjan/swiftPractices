@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RxSwiftPractise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJR-Lw-2ef">
+                                <rect key="frame" x="8" y="70" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="lJp-38-QCa"/>
+                                </constraints>
+                                <state key="normal" title="Camera Filter"/>
+                                <connections>
+                                    <segue destination="KXG-ay-10o" kind="showDetail" identifier="cvfc" id="9Cb-uS-gg3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkf-gZ-yeF">
+                                <rect key="frame" x="8" y="108" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Qk1-nw-LIU"/>
+                                </constraints>
+                                <state key="normal" title="GoodList"/>
+                                <connections>
+                                    <segue destination="eeS-e2-IVf" kind="show" identifier="glvc" id="1Sa-dh-1PK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVk-Zj-Cik">
+                                <rect key="frame" x="8" y="146" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="50c-6L-iIT"/>
+                                </constraints>
+                                <state key="normal" title="GoodNews"/>
+                                <connections>
+                                    <segue destination="jiB-41-72S" kind="show" identifier="gnvc" id="hFU-V3-imB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZm-Ra-En9">
+                                <rect key="frame" x="8" y="184" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A4W-Gd-FnH"/>
+                                </constraints>
+                                <state key="normal" title="GoodWeather"/>
+                                <connections>
+                                    <segue destination="eEg-Y7-4gz" kind="show" identifier="gwvc" id="ECU-Y9-F0g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3a-Ej-d1s">
+                                <rect key="frame" x="8" y="222" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="O45-nv-0mx"/>
+                                </constraints>
+                                <state key="normal" title="GoodNewsMVVM"/>
+                                <connections>
+                                    <segue destination="dOT-jg-j2x" kind="show" identifier="gnmvvmvc" id="0Om-VQ-P39"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fkf-gZ-yeF" secondAttribute="trailing" constant="8" id="5M4-B4-TTc"/>
+                            <constraint firstItem="EJR-Lw-2ef" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="6Y9-qi-tJX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YVk-Zj-Cik" secondAttribute="trailing" constant="8" id="BPw-Vl-jPd"/>
+                            <constraint firstItem="n3a-Ej-d1s" firstAttribute="top" secondItem="TZm-Ra-En9" secondAttribute="bottom" constant="8" id="Jbn-Y7-9L9"/>
+                            <constraint firstItem="fkf-gZ-yeF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="K8p-ds-SrN"/>
+                            <constraint firstItem="n3a-Ej-d1s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Ljh-tT-f5A"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TZm-Ra-En9" secondAttribute="trailing" constant="8" id="Qs5-zW-WHd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EJR-Lw-2ef" secondAttribute="trailing" constant="8" id="TVn-aW-MUP"/>
+                            <constraint firstItem="YVk-Zj-Cik" firstAttribute="top" secondItem="fkf-gZ-yeF" secondAttribute="bottom" constant="8" id="YbG-R6-vDa"/>
+                            <constraint firstItem="TZm-Ra-En9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Yrk-Rm-xP3"/>
+                            <constraint firstItem="TZm-Ra-En9" firstAttribute="top" secondItem="YVk-Zj-Cik" secondAttribute="bottom" constant="8" id="aVD-ra-lyg"/>
+                            <constraint firstItem="YVk-Zj-Cik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="bCQ-5T-uLx"/>
+                            <constraint firstItem="EJR-Lw-2ef" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="bx4-XQ-JPY"/>
+                            <constraint firstItem="fkf-gZ-yeF" firstAttribute="top" secondItem="EJR-Lw-2ef" secondAttribute="bottom" constant="8" id="qcj-SD-boe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="n3a-Ej-d1s" secondAttribute="trailing" constant="8" id="s2w-tD-1N1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="cameraFilterButton" destination="EJR-Lw-2ef" id="r7z-Jp-BHp"/>
+                        <outlet property="goodListButton" destination="fkf-gZ-yeF" id="yOb-1E-Q3R"/>
+                        <outlet property="goodNewsButton" destination="YVk-Zj-Cik" id="ebC-VP-xN3"/>
+                        <outlet property="goodNewsMVVMButton" destination="n3a-Ej-d1s" id="pUM-Gu-Fwb"/>
+                        <outlet property="goodWeatherButton" destination="TZm-Ra-En9" id="BZc-9h-2OH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="100.29985007496252"/>
+        </scene>
+        <!--GoodList-->
+        <scene sceneID="PgC-h3-Aup">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GoodList" id="eeS-e2-IVf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0s-ml-C3S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="947" y="44"/>
+        </scene>
+        <!--CameraFilterStoryboard-->
+        <scene sceneID="7UU-GK-4Q8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CameraFilterStoryboard" id="KXG-ay-10o" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lkT-eo-otf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="958" y="100"/>
+        </scene>
+        <!--GoodNews-->
+        <scene sceneID="xxe-ZQ-NdZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GoodNews" id="jiB-41-72S" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B1R-Fk-Mjy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="158"/>
+        </scene>
+        <!--GoodWeather-->
+        <scene sceneID="uId-9O-mTs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GoodWeather" id="eEg-Y7-4gz" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UpP-fM-p2y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="946" y="204"/>
+        </scene>
+        <!--GoodNewsMVVM-->
+        <scene sceneID="JIO-a7-ZtA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="GoodNewsMVVM" id="dOT-jg-j2x" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0lu-Qx-DEP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992" y="254"/>
+        </scene>
+    </scenes>
+</document>

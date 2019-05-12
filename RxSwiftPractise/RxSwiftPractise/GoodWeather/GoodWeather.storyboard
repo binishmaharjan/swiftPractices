@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1Z8-Mr-d4x">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Good Weather-->
+        <scene sceneID="mqB-l9-KBi">
+            <objects>
+                <viewController id="ID4-VD-3nF" customClass="GoodWeatherViewController" customModule="RxSwiftPractise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BCe-Pk-GEl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="83r-pS-JZD">
+                                <rect key="frame" x="8" y="72" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="g9h-A6-KhW"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temprature: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgS-VX-Ni7">
+                                <rect key="frame" x="16" y="110" width="100" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="O2h-Cw-Dnf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xk-te-IIg">
+                                <rect key="frame" x="16" y="138.5" width="100" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="EkE-7n-f3b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gX-DK-CLJ">
+                                <rect key="frame" x="124" y="138.5" width="243" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CyK-V7-QeS">
+                                <rect key="frame" x="124" y="110" width="243" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5Xk-te-IIg" firstAttribute="leading" secondItem="amW-3y-9Th" secondAttribute="leading" constant="16" id="1GZ-Nc-uuV"/>
+                            <constraint firstItem="amW-3y-9Th" firstAttribute="trailing" secondItem="83r-pS-JZD" secondAttribute="trailing" constant="8" id="4OD-vo-U5I"/>
+                            <constraint firstItem="83r-pS-JZD" firstAttribute="leading" secondItem="amW-3y-9Th" secondAttribute="leading" constant="8" id="65b-6J-KDO"/>
+                            <constraint firstItem="RgS-VX-Ni7" firstAttribute="leading" secondItem="amW-3y-9Th" secondAttribute="leading" constant="16" id="6rH-qQ-1KN"/>
+                            <constraint firstItem="amW-3y-9Th" firstAttribute="trailing" secondItem="CyK-V7-QeS" secondAttribute="trailing" constant="8" id="Ax8-Wd-bma"/>
+                            <constraint firstItem="CyK-V7-QeS" firstAttribute="top" secondItem="RgS-VX-Ni7" secondAttribute="top" id="MlR-7P-xfc"/>
+                            <constraint firstItem="CyK-V7-QeS" firstAttribute="leading" secondItem="RgS-VX-Ni7" secondAttribute="trailing" constant="8" id="PLF-jy-dHe"/>
+                            <constraint firstItem="5Xk-te-IIg" firstAttribute="top" secondItem="RgS-VX-Ni7" secondAttribute="bottom" constant="8" id="Qez-vO-FgZ"/>
+                            <constraint firstItem="6gX-DK-CLJ" firstAttribute="top" secondItem="5Xk-te-IIg" secondAttribute="top" id="TaL-Gh-cLZ"/>
+                            <constraint firstItem="6gX-DK-CLJ" firstAttribute="leading" secondItem="CyK-V7-QeS" secondAttribute="leading" id="hso-UF-OAS"/>
+                            <constraint firstItem="6gX-DK-CLJ" firstAttribute="trailing" secondItem="CyK-V7-QeS" secondAttribute="trailing" id="m5I-xO-nOW"/>
+                            <constraint firstItem="83r-pS-JZD" firstAttribute="top" secondItem="amW-3y-9Th" secondAttribute="top" constant="8" id="sxu-LK-NGm"/>
+                            <constraint firstItem="RgS-VX-Ni7" firstAttribute="top" secondItem="83r-pS-JZD" secondAttribute="bottom" constant="8" id="wTf-J2-Z7Y"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="amW-3y-9Th"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Good Weather" id="NiC-df-lQf"/>
+                    <connections>
+                        <outlet property="cityNameTextField" destination="83r-pS-JZD" id="eR2-zc-H7V"/>
+                        <outlet property="humidityLabel" destination="6gX-DK-CLJ" id="NX1-0a-VQ5"/>
+                        <outlet property="tempuratureLabel" destination="CyK-V7-QeS" id="Aba-JB-1aY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Drr-0A-RfD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="17.541229385307346"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B8z-NP-qDp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1Z8-Mr-d4x" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Y5d-9a-a6M">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ID4-VD-3nF" kind="relationship" relationship="rootViewController" id="DRL-NX-B3e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Sh-JD-SYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="80.799999999999997" y="17.541229385307346"/>
+        </scene>
+    </scenes>
+</document>
