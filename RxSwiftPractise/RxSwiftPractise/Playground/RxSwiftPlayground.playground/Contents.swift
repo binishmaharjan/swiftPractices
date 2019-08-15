@@ -20,7 +20,7 @@ import RxCocoa
  
  - ReplaySubject : Initialized with the buffer size and will maintain a buffer of elements up to the size and replay it to the new subscriber
  
- - BehaviourRelay(Variable)
+ - BehaviorRelay(Variable)
  
  */
 
@@ -101,7 +101,7 @@ subject2.subscribe({
 print("==================================")
 
 // Behaviour Relay
-print("BehaviourRelay")
+print("BehaviorRelay")
 let relay = BehaviorRelay(value: ["Item 0"])
 relay.accept(relay.value + ["Item 1","Item + 2", "Item 3"])
 relay.asObservable().subscribe({
