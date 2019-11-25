@@ -11,6 +11,7 @@ import Foundation
 class TodoAddViewModel {
   
   private var todoItem: Todo?
+  
   var newTodo: Todo? {
     get { return todoItem }
     set { todoItem = newValue }
