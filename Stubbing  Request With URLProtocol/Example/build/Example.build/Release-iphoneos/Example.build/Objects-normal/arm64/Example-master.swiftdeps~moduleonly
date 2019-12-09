@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "543a3bffaef32843b03ea504c0baf1d2"
+build_time: [1575736928, 360936000]
+inputs:
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/HttpClient/HttpClient.swift": [9223372036, 854775807]
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/ViewController.swift": [9223372036, 854775807]
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Capture/NetworkCapture.swift": [9223372036, 854775807]
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Manager/NetworkManager.swift": [9223372036, 854775807]
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Extension/Array+Extension.swift": [9223372036, 854775807]
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift": [9223372036, 854775807]

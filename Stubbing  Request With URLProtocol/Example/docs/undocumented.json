@@ -1,0 +1,152 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/AppDelegate.swift",
+      "line": 23,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/AppDelegate.swift",
+      "line": 29,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/HttpClient/HttpClient.swift",
+      "line": 13,
+      "symbol": "HttpClient.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/HttpClient/HttpClient.swift",
+      "line": 14,
+      "symbol": "HttpClient.Error.invalidParameter(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Capture/NetworkCapture.swift",
+      "line": 11,
+      "symbol": "NetworkCapture",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Capture/NetworkCapture.swift",
+      "line": 113,
+      "symbol": "NetworkCapture",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Manager/NetworkManager.swift",
+      "line": 11,
+      "symbol": "NetworkManager",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Manager/NetworkManager.swift",
+      "line": 13,
+      "symbol": "NetworkManager.Error",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/Network Manager/NetworkManager.swift",
+      "line": 14,
+      "symbol": "NetworkManager.Error.invalidParameter(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 11,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 13,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 16,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 23,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 30,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 35,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 40,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/SceneDelegate.swift",
+      "line": 45,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example/Example/ViewController.swift",
+      "line": 13,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/maharjanbinish/Documents/iOS/SwiftPractiseGit/Stubbing  Request With URLProtocol/Example"
+}
